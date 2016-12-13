@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AJAX Database</title>
+		<script src="jquery-3.1.1.js"></script>
+		<script type="text/javascript" src="global.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<div  class="text-field" id="imgUp">
+			
+			<form id="uploadimage" action="" method="post" enctype="multipart/form-data">
+				
+				<div class="text-inside">
+				Selectati Categoria<br><select id="sc" name="selectcat"></select><br><br>
+				Nume Produs<br><input id="numprod" type="text" name="input-text" /><br>
+				Pret Produs<br><input id="pretprod" type="number" name="input-pret" /><br><br>
+				<input type="file" name="file" id="file"><br><br>
+				<input type="submit" name="sumit" value="Send" id="imgButton" class="button"  /><br><br>
+				</div>		
+		    
+			</form>
+			
+		</div>
+		
+		<div class="text-field" id="catUp" >
+			
+				<form id="uploadcategory" method="get" >
+				
+				<div class="text-inside">
+				<select name="selector">
+				  <option value="audio">Audio,Video</option>
+				  <option value="electro">Electrocasnice</option>
+				  <option value="ingrijire">Ingrijire personala</option>
+				  <option value="pc">PC</option>
+				  <option value="telefoane">Tablete,telefoane</option>
+				</select><br><br>  
+				<div id="insert-category">Nume Categorie<br>
+				<input id="numecat" type="text" /><br><br>
+				</div>
+				<input type="submit" value="Adauga categorie" id="catButton" class="button"  /><br><br>
+				
+				</div>		
+		
+		
+				</form>
+			
+	<!--	</div>
+		<div id="sterge_prod">
+		<div >
+			<table id="availableProducts">
+				<thead>
+				<th>Nume</th> 
+				<th>Pret</th> 
+				<th>Sterge</th> 
+				</thead>
+                <tbody>
+				</tbody>
+            </table>
+			</div>
+		</div>
+		-->
+		
+		
+		
+	</body>
+
+</html>

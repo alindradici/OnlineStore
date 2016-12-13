@@ -1,0 +1,228 @@
+.text-field{
+	
+	background-color:#cce6ff;
+	border: 1px solid blue;
+	width:350px;
+	height:300px;
+	border-radius: 15px;
+	
+}
+.text-inside{
+	position:absolute;
+	top:20px;
+	left:30px;
+}
+#imgUp{
+	position:absolute;
+	top:200px;
+	left:900px;
+}
+#catUp{
+	position:absolute;
+	top:200px;
+	left:500px;
+}.button{
+	position:absolute;
+	top:180px;
+	left:60px;
+}
+#aseazamenu{
+	background-color:#f3f2f3;
+	width:200px;
+	height:300px;
+	position:absolute;
+	top:80px;
+	left:20px;
+	
+}
+
+#box{
+	
+	background-color:#f3f2f3;
+	width:200px;
+	height:300px;
+	position:absolute;
+	top:80px;
+	left:220px;
+	display:none;
+}
+
+.menu{
+	cursor:pointer;
+	margin:10px;
+}
+a{
+	
+	text-decoration:none;
+	margin-left:80px;
+	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+a:hover{
+	color:blue;
+	text-decoration:underline;
+	font-size:18px;
+}
+#prod{
+	margin:10px;
+	
+}
+.text{
+	color:grey;
+}
+.comanda {
+  background: #72aeb5;
+  border-radius: 21px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.comanda:hover {
+  background: #52bafa;
+  text-decoration: none;
+}
+.container{
+  position:absolute;
+  top:200px;
+  left:500px;
+  width: 60%;
+  
+  
+}
+.column {
+  
+  height:270px;
+  width:25%;
+  min-height: 100px;
+  float:left;
+  text-align:center;
+ }
+#prod {
+  display: inline-block;
+  width: 150px; height: 100px;
+  text-align: center;
+  margin:25px;
+ 
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+   
+    padding: 10px;
+}
+.fixed {
+    max-width: 300px;
+    min-width: 300px;
+}
+.fluid {
+        width: 50%;
+}
+#test{
+    border: 1px solid blue;
+	position:absolute;
+	left:500px;
+	
+}
+p{
+	color:green;
+	
+}
+p:hover{
+	cursor:pointer;
+}
+#product{
+	position : absolute;
+	top:60px;
+	left : 500px;
+	
+}
+#header{
+	
+	background-color:#72aeb5;
+	color:white;
+	font-size:50px;
+	height:70px;
+	font-family:"Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+body{
+	padding:0;
+	margin:0;
+}
+
+#cart {
+	position:absolute;
+	top:25px;
+	left:1100px;
+	height:55px;
+	width:55x;
+	font-size:20px;
+}
+#cartimg{
+	position:absolute;
+	top:10px;
+	left:1230px;
+	height:50px;
+	width:50x;
+	cursor:pointer;
+}
+#number_of_items{
+	position:absolute;
+	top:5px;
+	left:1250px;
+	font-size:20px;
+}
+#cartitems{
+	position:absolute;
+	top:70px;
+	left:1080px;
+	background-color:#72aeb5;
+	font-size:14px;
+	color:white;
+	
+}
+#pret{
+	color:red;
+	
+}
+table tbody {
+	text-align:center;
+}
+.sterge{
+	cursor:pointer;
+	color:orange;
+}
+#sterge_prod{
+	
+	position:absolute;
+	top:200px;
+	left:100px;
+	background-color:#cce6ff;
+	border: 1px solid blue;
+	width:350px;
+	height:300px;
+	border-radius: 15px;
+}
+#sales{
+	position:absolute;
+	left:400px;
+	top:400px;
+	width:200px;
+	height:50px;
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
